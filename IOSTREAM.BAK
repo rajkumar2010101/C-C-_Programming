@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+class Sample
+{
+  int age;
+  void display(int a)
+  {
+    age = a;
+    cout<<"Age is="<<endl;
+  }
+};
+void main()
+{
+  int A;
+  Sample s1;
+  cout<<"Enter your Age";
+  cin>>A;
+  s1.display(A);
+  getch();
+}
